@@ -5,12 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App.jsx'
 import SearchBooks from './pages/SearchBooks'
 import SavedBooks from './pages/SavedBooks'
+import ErrorPage from './pages/errorPage.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <h1 className='display-2'>Wrong page!</h1>,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
