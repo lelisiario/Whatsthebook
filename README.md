@@ -1,7 +1,5 @@
 # Whatsthebook
 
-# Reading-Roundtable
-
 ![RepoLink](https://github.com/lelisiario/Whatsthebook)
 
 
