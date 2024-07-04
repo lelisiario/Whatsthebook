@@ -13,9 +13,7 @@ An Express.js web app that can search for books from the Google Books API and us
 ## Table of Contents
 
 - [Usage](#usage)
-- [Credits](#credits)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 - [Features](#features)
 - [User Story](#user-story)
