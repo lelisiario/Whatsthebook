@@ -5,6 +5,8 @@ const path = require('path');
 const { authMiddleware } = require('./utils/auth');
 
 const { typeDefs, resolvers } = require('./schemas');
+const mongoose = require('mongoose');
+require('dotenv').config();
 const db = require('./config/connection');
 
 const PORT = process.env.PORT || 3001;
@@ -13,6 +15,8 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
 });
+
+const uri = process.env.MONGODB_URI;
 
 // Create a new instance of an Apollo server with the GraphQL schema
 const startApolloServer = async () => {
